@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ssss"
+    android:orientation="vertical"
+    tools:context="com.example.musa.learntheword.Rhyme">
+
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/trans_white_rectangle">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:text="মামার বাড়ি\nজসীমউদ্দীন"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/Indigo1"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_marginTop="81dp"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/trans_white_rectangle"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="আয় ছেলেরা আয় মেয়েরা,
+ফুল তুলিতে যাই
+ফুলের মালা গলায় দিয়ে
+মামার বাড়ি যাই।\n\n
+
+মামার বাড়ি পদ্মপুকুর
+গলায় গলায় জল,
+এপার হতে ওপার গিয়ে
+নাচে ঢেউয়ের দল।\n\n
+
+দিনে সেথায় ঘুমিয়ে থাকে
+লাল শালুকের ফুল,
+রাতের বেলা চাঁদের সনে
+হেসে না পায় কূল।\n\n
+
+আম-কাঁঠালের বনের ধারে
+মামা-বাড়ির ঘর,
+আকাশ হতে জোছনা-কুসুম
+ঝরে মাথার ‘পর।\n\n
+
+রাতের বেলা জোনাক জ্বলে
+বাঁশ-বাগানের ছায়,
+শিমুল গাছের শাখায় বসে
+ভোরের পাখি গায়।\n\n
+
+ঝড়ের দিনে মামার দেশে
+আম কুড়াতে সুখ
+পাকা জামের শাখায় উঠি
+রঙিন করি মুখ।\n
+
+                   (সংক্ষেপিত)"
+                android:textSize="25dp"
+                android:textColor="@color/Black"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+
+                />
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hmbc">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:background="@color/Amber"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/conebtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ক"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/ctwobtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="খ"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/cthreebtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="গ"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/cfourbtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ঘ"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/cfivebtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ঙ"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/csixbtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="চ"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/csevenbtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ছ"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/ceightbtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="জ"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/cninebtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ঝ"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/ctenbtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ঞ"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/celevenbtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ট"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/ctwelvebtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ঠ"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/cthirteenbtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ড"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/cfourteenbtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ঢ"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/cfivteenbtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ণ"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/csixteenbtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ত"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/cseventenbtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="থ"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/ceightenbtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="দ"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/Black">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:background="#ffffff">
+
+
+        <ImageView
+            android:id="@+id/imageVv"
+            android:layout_width="match_parent"
+            android:layout_height="245dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/Black">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/Amber"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cnintenbtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ধ"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/ctwentybtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ন"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/ctwonebtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="প"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/ctwtwobtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ফ"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/ctwthreebtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ব"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/ctwfourbtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ভ"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/ctwfivebtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ম"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/ctwsixbtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="য"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/ctwsevenbtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="র"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/ctweightbtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ল"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/ctwninebtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="শ"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/cthirtybtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ষ"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/cthonebtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="স"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/cthtwobtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="হ"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/cththreebtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ড়"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/cthfourbtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ঢ়"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/cthfivebtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="য়"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/cthsixbtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ৎ"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/cthsevenbtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ং"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/ctheightbtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ঃ"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/cthninebtn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colorbutton2"
+                android:text="ঁ"
+                android:textColor="@color/Red"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+

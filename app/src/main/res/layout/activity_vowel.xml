@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hmbc">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/Amber"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/onebtn"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/colorbutton"
+                android:text="অ"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/Red"/>
+
+            <Button
+                android:id="@+id/twobtn"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/colorbutton"
+                android:text="আ"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/Red"/>
+            <Button
+                android:id="@+id/threebtn"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/colorbutton"
+                android:text="ই"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/Red"/>
+
+            <Button
+                android:id="@+id/fourbtn"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/colorbutton"
+                android:text="ঈ"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/Red"/>
+
+            <Button
+                android:id="@+id/fivebtn"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/colorbutton"
+                android:text="উ"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/Red"/>
+
+            <Button
+                android:id="@+id/sixbtn"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/colorbutton"
+                android:text="ঊ"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/Red"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/sevenbtn"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/colorbutton"
+                android:text="ঋ"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/Red"/>
+
+            <Button
+                android:id="@+id/eightbtn"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/colorbutton"
+                android:text="এ"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/Red"/>
+            <Button
+                android:id="@+id/ninebtn"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/colorbutton"
+                android:text="ঐ"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/Red"/>
+
+            <Button
+                android:id="@+id/tenbtn"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/colorbutton"
+                android:text="ও"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/Red"/>
+
+            <Button
+                android:id="@+id/elevenbtn"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/colorbutton"
+                android:text="ঔ"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/Red"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/Black">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageV"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

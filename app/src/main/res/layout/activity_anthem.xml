@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/flag"
+    tools:context="com.example.musa.learntheword.Anthem">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:text="জাতীয় সঙ্গীত"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/Red"
+            android:textSize="40dp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginTop="80dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/trans_white_rectangle"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="আমার সোনার বাংলা, আমি তোমায় ভালোবাসি ।\n
+চিরদিন তোমার আকাশ, তোমার বাতাস, আমার প্রাণে বাজায় বাঁশি ॥\n
+     ও মা, ফাগুনে তোর আমের বনে ঘ্রাণে পাগল করে,\n
+                             মরি হায়, হায় রে—\n
+ও মা, অঘ্রানে তোর ভরা ক্ষেতে আমি কী দেখেছি মধুর হাসি ॥\n\n
+
+          কী শোভা, কী ছায়া গো, কী স্নেহ, কী মায়া গো—\n
+          কী আঁচল বিছায়েছ বটের মূলে, নদীর কূলে কূলে ।\n
+     মা, তোর মুখের বাণী আমার কানে লাগে সুধার মতো,\n
+                             মরি হায়, হায় রে—\n
+মা, তোর বদনখানি মলিন হলে, ও মা, আমি নয়নজলে ভাসি ॥\n\n"
+                android:textSize="25dp"
+                android:textColor="@color/Black"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+
+                />
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+    
+
+</RelativeLayout>
